@@ -33,7 +33,7 @@ Mapeo:
 
  ~ Miembros no activos ~ 
 
-* Cyrus (Administración)?
+* Cyrus (Administración)
 * Dralash (Mapeo)
 * Dunkan (Programación)
 * Gelfor (Dateo/Indexación)

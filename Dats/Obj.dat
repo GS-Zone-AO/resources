@@ -74,7 +74,7 @@ usar primero los nros más bajos.
 'aca va el numero de OBJ mas alto, NO la cantidad de OBJs.
 'esto sirve para que los GMS puedan ver la lista completa de items para crear en una ventanita.
 
-NumOBJs=1119
+NumOBJs=1136
 
 
 
@@ -13280,3 +13280,195 @@ MaxDef=0
 MinDef=0
 Valor=50
 NoLimpiar=1
+
+[OBJ1120]
+Name=Boomean
+GrhIndex=28361
+ObjType=2
+NoAgarrable=0
+Anim=41
+RazaEnanaAnim=40
+Proyectil=1
+Municiones=0
+MinHit=1
+MaxHit=3
+Valor=100
+NoLimpiar=0
+Madera=50
+Upgrade=663
+SkCarpinteria=10
+
+[OBJ1121]
+Name=Bomba Simple
+GrhIndex=28355
+ObjType=2
+NoAgarrable=0
+Anim=41
+RazaEnanaAnim=40
+Proyectil=1
+Municiones=0
+MinHit=2
+MaxHit=6
+Valor=17
+NoLimpiar=0
+Upgrade=663
+
+[OBJ1122]
+Name=Bomba +1
+GrhIndex=28356
+ObjType=2
+NoAgarrable=0
+Anim=41
+RazaEnanaAnim=40
+Proyectil=1
+Municiones=0
+MinHit=3
+MaxHit=7
+Valor=22
+NoLimpiar=0
+Upgrade=663
+
+[OBJ1123]
+Name=Bomba +2
+GrhIndex=28357
+ObjType=2
+NoAgarrable=0
+Anim=41
+RazaEnanaAnim=40
+Proyectil=1
+Municiones=0
+MinHit=3
+MaxHit=9
+Valor=26
+NoLimpiar=0
+Upgrade=663
+
+[OBJ1124]
+Name=Bomba +3
+GrhIndex=28358
+ObjType=2
+NoAgarrable=0
+Anim=41
+RazaEnanaAnim=40
+Proyectil=1
+Municiones=0
+MinHit=5
+MaxHit=11
+Valor=32
+NoLimpiar=0
+Upgrade=663
+
+[OBJ1125]
+Name=Bomba +4
+GrhIndex=28359
+ObjType=2
+NoAgarrable=0
+Anim=41
+RazaEnanaAnim=40
+MinHit=6
+MaxHit=15
+Valor=36
+NoLimpiar=0
+Upgrade=663
+
+[OBJ1126]
+Name=Bomba +5
+GrhIndex=28360
+ObjType=2
+NoAgarrable=0
+Anim=41
+RazaEnanaAnim=40
+Proyectil=1
+Municiones=0
+MinHit=1
+MaxHit=3
+Valor=100
+NoLimpiar=0
+Upgrade=663
+
+
+[OBJ1127]'repetido
+Name=Portal
+GrhIndex=609
+ObjType=24
+NoAgarrable=0
+Valor=5550500
+NoLimpiar=1
+HechizoIndex=2
+
+[OBJ1128]
+Name=Portal
+GrhIndex=609
+ObjType=24
+NoAgarrable=0
+Valor=5550500
+NoLimpiar=1
+HechizoIndex=2
+
+
+[OBJ1129]
+Name=Portal Keeg Mai
+GrhIndex=609
+ObjType=24
+NoAgarrable=0
+Valor=250500
+NoLimpiar=1
+HechizoIndex=2
+
+[OBJ1130]
+Name=Runa de Sol
+GrhIndex=731
+ObjType=30
+Valor=100
+NoAgarrable=0
+NoLimpiar=0
+
+[OBJ1131]
+Name=Runa de Luna
+GrhIndex=731
+ObjType=30
+Valor=100
+NoAgarrable=0
+NoLimpiar=0
+
+[OBJ1132]
+Name=Runa de Fuego
+GrhIndex=731
+ObjType=30
+Valor=100
+NoAgarrable=0
+NoLimpiar=0
+
+[OBJ1133]
+Name=Runa de Agua
+GrhIndex=731
+ObjType=30
+Valor=100
+NoAgarrable=0
+NoLimpiar=0
+
+[OBJ1134]
+Name=Runa de Madera
+GrhIndex=731
+ObjType=30
+Valor=100
+NoAgarrable=0
+NoLimpiar=0
+
+[OBJ1135]
+Name=Runa de Tierra
+GrhIndex=731
+ObjType=30
+Valor=100
+NoAgarrable=0
+NoLimpiar=0
+
+[OBJ1136]
+Name=Runa de Metal
+GrhIndex=731
+ObjType=30
+Valor=100
+NoAgarrable=0
+NoLimpiar=0
+
+

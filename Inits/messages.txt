@@ -1,5 +1,4 @@
-/consulta
-/acc 6
+
 
 
 

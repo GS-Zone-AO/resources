@@ -2,7 +2,7 @@
 'que cargará el servidor y las carpetas en donde se encuentran los mapas
 
 [INIT]
-NumMaps=63
+NumMaps=64
 
 MapFlagName=Mapa
 MapPath=\Maps\

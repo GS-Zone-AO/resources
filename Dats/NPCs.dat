@@ -14,15 +14,15 @@
 ##############################################
 
 [INIT]
-NumNPCs=911
+NumNPCs=916
 'Aquí va el número de NPC más alto, NO la cantidad de NPCs.
 
 ##############################################
 
-[NPC34] 'Propiedades Ulla 
+[NPC34] 'Propiedades Keeg Mai
 Name=Cullighan
 NpcType=0
-Desc=Usted sabe que no hay persona noble o respetable en estas tierras que no tenga su propia vivienda. ¡acérquese y sea dueño de una de las exclusivas casas de Ullathorpe. ¡Será admirado por toda la población!
+Desc=Usted sabe que no hay persona noble o respetable en estas tierras que no tenga su propia vivienda. ¡acérquese y sea dueño de una de las exclusivas casas de Keeg Mai. ¡Será admirado por toda la población!
 Head=33
 Heading=3
 Body=240
@@ -44,10 +44,10 @@ BackUp=1
 
 #############################################
 
-[NPC35] 'Propiedades Nix
+[NPC35] 'Propiedades Iliath
 Name=Moraday
 NpcType=0
-Desc=¿Ha descubierto que la ciudad de Nix es la más hermosa de todo Argentum, verdad? ¡Pues qué mejor que ser un terrateniente de este paraíso! ¡Acércate que haremos negocios!
+Desc=¿Ha descubierto que la ciudad de Iliath es la más hermosa de todo Argentum, verdad? ¡Pues qué mejor que ser un terrateniente de este paraíso! ¡Acércate que haremos negocios!
 Head=35
 Heading=3
 Body=239
@@ -64,8 +64,8 @@ Obj1=87-0
 Obj2=91-0
 Obj3=95-0
 Obj4=99-0
-Obj5=103-1 'Llave Nix Casa Nro 5
-Obj6=107-1 'Llave Nix Casa Nro 6
+Obj5=103-1 'Llave Iliath Casa Nro 5
+Obj6=107-1 'Llave Iliath Casa Nro 6
 Obj7=111-0
 Obj8=115-0
 Obj9=119-0
@@ -75,10 +75,10 @@ BackUp=1
 
 #############################################
 
-[NPC52] 'Propiedades Bander
+[NPC52] 'Propiedades Noir
 Name=Rantarisk
 NpcType=0
-Desc=De lejos pude ver vuestro blazón, seguro busca una de las moradas más lujosas de todo el Argentum. En la ciudad real de Banderbill es donde deben habitar la flor y la nata de la nobleza ¡Venga y hagamos negocios!
+Desc=De lejos pude ver vuestro blazón, seguro busca una de las moradas más lujosas de todo el Argentum. En la ciudad real de Noir es donde deben habitar la flor y la nata de la nobleza ¡Venga y hagamos negocios!
 Head=32
 Heading=3
 Body=241
@@ -100,9 +100,9 @@ Obj6=286-0
 Obj7=290-0
 Obj8=294-0
 Obj9=298-0
-Obj10=323-1 'Llave Banderbill Casa Nro 10
-Obj11=327-1 'Llave Banderbill Casa Nro 11
-Obj12=331-1 'Llave Banderbill Casa Nro 12
+Obj10=323-1 'Llave Noir Casa Nro 10
+Obj11=327-1 'Llave Noir Casa Nro 11
+Obj12=331-1 'Llave Noir Casa Nro 12
 Obj13=335-0
 Obj14=339-0
 Obj15=343-0
@@ -114,9 +114,9 @@ BackUp=1
 
 #############################################
 
-[NPC62] 'Propiedades Lindos
+[NPC62] 'Propiedades Sait Zeb
 Name=Guldorf
-Desc=Si está buscando la paz y la tranquilidad en estas tierras ha llegado al lugar indicado... adquiera una de nuestras exclusivas residencias, y cambie su vida para siempre.
+Desc=Si está buscando la paz y la tranquilidad en estas tierras no las encontraras..
 Head=36
 Body=234
 Heading=3
@@ -222,9 +222,9 @@ InvReSpawn=1
 ##############################################################
 
 [NPC72]
-Name=Tancredo de Hauteville, soberano de Banderbill
+Name=Tancredo de Hauteville, soberano de Noir
 NpcType=5
-Desc=Saludos ciudadano, soy Tancredo de Hauteville, nuevo soberano de Banderbill. Mi deber es mantener el nuevo orden del Imperio. Si deseas unirte a mis filas y ayudarme di /ENLISTAR.
+Desc=Saludos ciudadano, soy Tancredo de Noir, nuevo soberano de Noir. Mi deber es mantener el nuevo orden del Imperio. Si deseas unirte a mis filas y ayudarme di /ENLISTAR.
 Head=510
 Heading=3
 Body=409
@@ -264,9 +264,9 @@ BackUp=0
 ####################NPCS ENTRENADORES#########################
 ##############################################################
 
-[NPC60] 'Entrenador de Banderbill
-Name=O'Riley de Banderbill
-Desc=¡Hola amigo! Soy el Maestro de armas de la Milicia de Banderbill, si deseas que traiga una criatura sólo debes pedirmelo. (Escribe /ENTRENAR)
+[NPC60] 'Entrenador de Noir
+Name=O'Riley de Noir
+Desc=¡Hola amigo! Soy el Maestro de armas de la Milicia de Noir, si deseas que traiga una criatura sólo debes pedirmelo. (Escribe /ENTRENAR)
 NpcType=3
 Head=6
 Heading=3
@@ -482,7 +482,7 @@ BackUp=1
 Name=Pescador
 NpcType=0
 Desc=¡Bienvenido al gremio de pescadores!
-Head=101
+Head=2
 Heading=3
 Body=3
 Movement=2
@@ -503,7 +503,7 @@ BackUp=1
 [NPC48] 'Minero
 Name=Minero
 NpcType=0
-Desc=Tengo los mejores utensillos para mineros de todo Argentum.
+Desc=Tengo los mejores utensillos para mineria.
 Head=2
 Heading=3
 Body=1
@@ -565,7 +565,7 @@ BackUp=1
 
 #############################################
 
-[NPC42] 'Provisiones camino Ulla-Bander
+[NPC42] 'Provisiones camino Keeg Mai-Noir
 Name=Antogne
 NpcType=0
 Desc=¡Hola aventurero! Si estais hambriento habeis venido al lugar apropiador, tengo todo tipo de frutas.
@@ -982,27 +982,39 @@ BackUp=0
 
 #############################################
 
-[NPC13] 'npc gobernador de ulla
-Name=Gobernador
-NpcType=11
-Desc=Hola, soy el gobernador de Ullathorpe ¡Bienvenido a nuestra pequeña aldea! Escribe /Hogar para obtener la ciudadanía.
-Head=0
-Ciudad=1
+
+[NPC13] 'Vende Pociones Keeg Mai
+Name=Lilith
+NpcType=0
+Desc=Hola, tengo las mejores Pociones y artefactos de Keeg Mai.
+Head=77
 Heading=3
-Body=4
+Body=200
 Movement=1
 Attackable=0
 ReSpawn=0
 Hostile=0
 Domable=0
-Alineacion=0
-Comercia=0
-BackUp=0
+Comercia=1
+TipoItems=12
+NROITEMS=11
+Obj1=36-1000 'Poción Amarilla
+Obj2=37-1000 'Poción Azul
+Obj3=38-1000 'Poción Roja
+Obj4=39-1000 'Poción Verde
+Obj5=166-1000 'Poción Violeta
+Obj6=1121-1000 'Bomba Sencilla
+Obj7=1122-1000 'Bomba +1
+Obj8=1123-1000 'Bomba +2
+Obj9=1124-1000 'Bomba +3
+Obj10=1125-1000 'Bomba +4
+Obj11=1126-1000 'Bomba +5
+BackUp=1
 
 #############################################
 
 [NPC118]
-Name=Alarnick, antiguo soberano de Banderbill
+Name=Alarnick, antiguo soberano de Noir
 NpcType=0
 Desc=¡Esto no es digno de un soberano! ¡Exijo me devuelvan mi trono y me saquen de esta pocilga!...¡Maldito Tancredo, me las pagarás!
 Head=101
@@ -1022,7 +1034,7 @@ BackUp=0
 [NPC128] 'Pregonero
 Name=Nelmasil
 NpcType=0
-Desc=El pueblo de Ullathorpe en contra del alcalde... ¡Todos aquellos que estén en contra se presenten en el castillo del rey en Banderbill!
+Desc=El pueblo de Ullathorpe en contra del alcalde... ¡Todos aquellos que estén en contra se presenten en el castillo del rey en Noir!
 Head=0
 Body=410
 Heading=3
@@ -1369,13 +1381,13 @@ Comercia=0
 BackUp=1 
 
 ##############################################################
-#####################NPCS ULLATHORPE##########################
+#####################NPCS Keeg-MaiE##########################
 ##############################################################
 
-[NPC8] 'Provisiones Ulla
+[NPC8] 'Provisiones Keeg-Mai
 Name=Thorkis
 NpcType=0
-Desc=Hooooola jovencito, tengo las mejores provisiones de Ullathorpe!!
+Desc=Hooooola jovencito, tengo las mejores provisiones de Keeg Mai!!
 Head=504
 Heading=3
 Body=202
@@ -1397,10 +1409,10 @@ BackUp=1
 
 #############################################
 
-[NPC7] 'Herrero Ulla
+[NPC7] 'Herrero Keeg Mai
 Name=Herrero
 NpcType=0
-Desc=Bienvenido, rata de alcantarilla, soy el Herrero de Ullathorpe...tengo algunas armas que pueden ayudarte en tus viajes.
+Desc=Bienvenido, rata de alcantarilla, soy el Herrero de Keeg Mai...tengo algunas armas que pueden ayudarte en tus viajes.
 Head=505
 Heading=3
 Body=199
@@ -1412,7 +1424,7 @@ Domable=0
 Alineacion=0
 Comercia=1
 TipoItems=2
-NROITEMS=12
+NROITEMS=10
 Obj1=15-1000 'Daga
 Obj2=619-1000 'Daga Envenenada
 Obj3=165-1000 'Daga +1
@@ -1422,17 +1434,16 @@ Obj6=125-1000 'Sable
 Obj7=389-1000 'Martillo de Herrero
 Obj8=990-1000 'Mazo del Juicio
 Obj9=129-1000-1 'Hacha de Guerra Dos Filo
-obj10=391-1000-1 'Completas+2
-Obj11=491-1000-1
-Obj12=405-1000-1
+Obj10=1120-1000-1 'Boomean
+
 BackUp=1
 
 #############################################
 
-[NPC46] 'VendeMagia Ulla
+[NPC46] 'VendeMagia Keeg Mai
 Name=Mago
 NpcType=0
-Desc=Bienvenido a mi pequeña tienda de Ullathorpe... Tengo algunos hechizos que podrían interesarte.
+Desc=Bienvenido a mi pequeña tienda de Keeg Mai... Tengo algunos hechizos que podrían interesarte.
 Head=110
 Heading=3
 Body=46
@@ -1444,21 +1455,22 @@ Domable=0
 Alineacion=0
 Comercia=1
 TipoItems=24
-NROITEMS=6
+NROITEMS=7
 Obj1=363-1000 'Ataque de Hambre
 Obj2=199-1000 'Dardo Mágico
 Obj3=200-1000 'Antídoto Mágico
 Obj4=197-1000 'Flecha Mágica
 Obj5=658-1000 'Vara de Fresno
 Obj6=659-1000 'Bastón nudoso
+Obj7=1129-1000 'Portal Keeg Mai
 BackUp=1
 
 #############################################
 
-[NPC12] 'Sastre Ulla (hombres)
+[NPC12] 'Sastre Keeg Mai (hombres)
 Name=Sastre
 NpcType=0
-Desc=¡Hola forastero! Soy el Sastre de Ullathorpe, Bienvenido!
+Desc=¡Hola forastero! Soy el Sastre de Keeg Mai, Bienvenido!
 Head=9
 Heading=3
 Body=50
@@ -1483,10 +1495,10 @@ BackUp=1
 
 #############################################
 
-[NPC19] 'Sastre Ulla (mujeres)
+[NPC19] 'Sastre Keeg Mai (mujeres)
 Name=Sastre
 NpcType=0
-Desc=¡Bienvenida Viajera! Tengo hermosas vestimentas para ofrecerte...
+Desc=¡Bienvenida a Keeg Mai Viajera! Tengo hermosas vestimentas para ofrecerte...
 Head=70
 Heading=3
 Body=80
@@ -1508,7 +1520,7 @@ BackUp=1
 
 #############################################
 
-[NPC20] 'Sastre Ulla (enanos)
+[NPC20] 'Sastre Keeg Mai (enanos)
 Name=Sastre
 NpcType=0
 Desc=¡Acérquese! Tengo pequeñas prendas que serán de su agrado...
@@ -1534,7 +1546,7 @@ BackUp=1
 
 #############################################
 
-[NPC54] 'Armaduras Ulla
+[NPC54] 'Armaduras Keeg Mai
 Name=Armaduras
 Desc=Acércate, tengo algunas armaduras que podrían protegerte.
 Head=6
@@ -1560,13 +1572,13 @@ BackUp=1
 
 
 ##############################################################
-########################NPCS NIX##############################
+########################NPCS Iliath##############################
 ##############################################################
 
-[NPC15] 'Provisiones Nix
+[NPC15] 'Provisiones Iliath
 Name=Thorkis
 NpcType=0
-Desc=¡Qué tal amigo! Entra, pues tengo las mejores provisiones de Nix!
+Desc=¡Qué tal amigo! Entra, pues tengo las mejores provisiones de Iliath!
 Head=504
 Heading=3
 Body=202
@@ -1587,10 +1599,10 @@ BackUp=1
 
 #############################################
 
-[NPC37] 'Herrero Nix
+[NPC37] 'Herrero Iliath
 Name=Herrero
 NpcType=0
-Desc=Bienvenido, rata de alcantarilla, soy el Herrero de Nix, tengo algunas armas que pueden ayudarte en tus viajes.
+Desc=Bienvenido, rata de alcantarilla, soy el Herrero de Iliath, tengo algunas armas que pueden ayudarte en tus viajes.
 Head=505
 Heading=3
 Body=199
@@ -1617,10 +1629,10 @@ BackUp=1
 
 #############################################
 
-[NPC47] 'VendeMagia NIX
+[NPC47] 'VendeMagia Iliath
 Name=Mago
 NpcType=0
-Desc=Bienvenido a mi pequeña tienda de Nix... Tengo algunos hechizos que podrían interesarte.
+Desc=Bienvenido a mi pequeña tienda de Iliath... Tengo algunos hechizos que podrían interesarte.
 Head=110
 Heading=3
 Body=46
@@ -1646,10 +1658,10 @@ BackUp=1
 
 #############################################
 
-[NPC21] 'Sastre Nix (hombres)
+[NPC21] 'Sastre Iliath (hombres)
 Name=Sastre
 NpcType=0
-Desc=¡Hola forastero! Soy el Sastre de Nix, Bienvenido!
+Desc=¡Hola forastero! Soy el Sastre de Iliath, Bienvenido!
 Head=7
 Heading=3
 Body=50
@@ -1675,10 +1687,10 @@ BackUp=1
 
 #############################################
 
-[NPC22] 'Sastre Nix (mujeres)
+[NPC22] 'Sastre Iliath (mujeres)
 Name=Sastre
 NpcType=0
-Desc=¡Bienvenida Viajera! Entra a mi tienda, ¡Tengo las mejores prendas de Nix!
+Desc=¡Bienvenida Viajera! Entra a mi tienda, ¡Tengo las mejores prendas de Iliath!
 Head=71
 Heading=3
 Body=80
@@ -1700,7 +1712,7 @@ BackUp=1
 
 #############################################
 
-[NPC23] 'Sastre Nix (enanos)
+[NPC23] 'Sastre Iliath (enanos)
 Name=Sastre
 NpcType=0
 Desc=¡Acérquese! Tengo pequeñas prendas que serán de su agrado...
@@ -1726,7 +1738,7 @@ BackUp=1
 
 #############################################
 
-[NPC70] 'Armaduras Nix
+[NPC70] 'Armaduras Iliath
 Name=Armaduras
 Desc=Acércate, tengo algunas armaduras que podrían protegerte.
 Head=6
@@ -1755,13 +1767,13 @@ BackUp=1
 
 
 ##############################################################
-#####################NPCS BANDERBILL##########################
+#####################NPCS NoirL##########################
 ##############################################################
 
-[NPC50] 'Provisiones Bander
+[NPC50] 'Provisiones Noir
 Name=Tellez
 NpcType=0
-Desc=¡Hola! Bienvenido al "Mesón Hostigado", ¿Qué desea que le sirva?
+Desc=¡Hola! Bienvenido, ¿Qué desea que le sirva?
 Head=505
 Heading=3
 Body=202
@@ -1788,10 +1800,10 @@ BackUp=1
 
 #############################################
 
-[NPC38] 'Herrero Bander
+[NPC38] 'Herrero Noir
 Name=Herrero
 NpcType=0
-Desc=¡Ven, pasa, que he fabricado las más poderosas armas de Banderbill para tí!
+Desc=¡Ven, pasa, que he fabricado las más poderosas armas de Noir para tí!
 Head=505
 Heading=3
 Body=199
@@ -1816,7 +1828,7 @@ BackUp=1
 
 #############################################
 
-[NPC51] 'VendeMagia Bander
+[NPC51] 'VendeMagia Noir
 Name=Mago
 NpcType=0
 Desc=Bienvenido a mi pequeña Tienda de Banderbill... Tengo algunos hechizos que podrían interesarte.
@@ -1847,7 +1859,7 @@ BackUp=1
 
 #############################################
 
-[NPC25] 'Sastre Bander (hombres)
+[NPC25] 'Sastre Noir (hombres)
 Name=Sastre
 NpcType=0
 Desc=¡Bienvenido a la Sastrería de Banderbill! ¿En qué lo puedo ayudar?
@@ -1875,7 +1887,7 @@ BackUp=1
 
 #############################################
 
-[NPC26] 'Sastre Bander (mujeres)
+[NPC26] 'Sastre Noir (mujeres)
 Name=Sastre
 NpcType=0
 Desc=¡Adelante hermosa niña! En mi tienda encontrarás vestidos hechos para tí!
@@ -1900,7 +1912,7 @@ BackUp=1
 
 #############################################
 
-[NPC27] 'Sastre Bander (enanos)
+[NPC27] 'Sastre Noir (enanos)
 Name=Sastre
 NpcType=0
 Desc=¡Ven y mira estas prendas que he confeccionado para nuestra raza!
@@ -1926,7 +1938,7 @@ BackUp=1
 
 #############################################
 
-[NPC74] 'Armaduras Bander
+[NPC74] 'Armaduras Noir
 Name=Armaduras
 Desc=Ven, tengo resistentes armaduras para ofrecerte.
 Head=6
@@ -1953,10 +1965,10 @@ BackUp=1
 
 
 ##############################################################
-#######################NPCS LINDOS############################
+#######################NPCS Sait Zeb##########################
 ##############################################################
 
-[NPC43] 'Provisiones Lindos
+[NPC43] 'Provisiones Sait Zeb
 Name=Sorks
 NpcType=0
 Desc=¿¡Estáis sediento y hambriento!?
@@ -1980,7 +1992,7 @@ BackUp=1
 
 #############################################
 
-[NPC56] 'Herrero Lindos
+[NPC56] 'Herrero Sait Zeb
 Name=Herrero
 NpcType=0
 Desc=¡Ven, pasa, que he fabricado, aquí en Lindos, poderosas armas para tí!
@@ -2008,7 +2020,7 @@ BackUp=1
 
 #############################################
 
-[NPC69] 'VendeMagia Lindos
+[NPC69] 'VendeMagia Sait Zeb
 Name=Mago
 NpcType=0
 Desc=Ven por aquí joven, las artes mágicas superiores te están llamando...
@@ -2041,7 +2053,7 @@ BackUp=1
 
 #############################################
 
-[NPC31] 'Sastre Lindos (hombres)
+[NPC31] 'Sastre Sait Zeb (hombres)
 Name=Sastre
 NpcType=0
 Desc=¡Ven aquí! Te puedo ofrecer las mejores ropas de la isla...
@@ -2070,10 +2082,10 @@ BackUp=1
 
 #############################################
 
-[NPC32] 'Sastre Lindos (mujeres)
-Name=Sastre
+[NPC32] 'MedicoBrujo (mujeres)
+Name=MedicoBrujo
 NpcType=0
-Desc=¡Ven y mira estas vestimentas, seguro te encantarán!
+Desc=¡Soy un brujo muy poderoso!
 Head=75
 Heading=3
 Body=118
@@ -2085,17 +2097,14 @@ Domable=0
 Alineacion=0
 Comercia=1
 TipoItems=3
-NROITEMS=5
-Obj1=170-1000 'Vestimenta de Mujer (H/E/EO-M)
-Obj2=382-1000 'Vestido Azul (H/E/EO-M)
-Obj3=511-1000 'Vestido de Novia Sensual (H/E/EO-M)
-Obj4=488-1000 'White Lady (H/E/EO-M)
-Obj5=508-1000 'Ropa Estuaria (H/E/EO-M)
+NROITEMS=1
+Obj1=170-1000 
+
 BackUp=1
 
 #############################################
 
-[NPC39] 'Sastre Lindos (enanos)
+[NPC39] 'Sastre Sait Zeb (enanos)
 Name=Sastre
 NpcType=0
 Desc=¡Hola forastero! confeccionamos las mejores ropas de la zona.
@@ -2122,7 +2131,7 @@ BackUp=1
 
 #############################################
 
-[NPC113] 'Armaduras Lindos
+[NPC113] 'Armaduras Sait Zeb
 Name=Armaduras
 Desc=¡Tengo a la venta las mejores armaduras de la isla!
 Head=6
@@ -3171,13 +3180,13 @@ BackUp=0
 
 #############################################
 
-[NPC151] 'npc gobernador de Banderbill
-Name=Gobernador
+[NPC151] 'friolero Noir
+Name=Friolero
 NpcType=11
-Desc=Hola, soy el gobernador de Banderbill ¡Bienvenido a nuestra pequeña aldea! Escribe /Hogar para obtener la ciudadanía.
-Head=0
+Desc=Hola, siempre hace frio en esta maldita ciudad...
+Head=70
 Heading=3
-Body=4
+Body=80
 Movement=1
 Ciudad=3
 Attackable=0
@@ -9094,3 +9103,93 @@ Drop2=38-10 'Pociones Rojas
 Drop3=366-1 'Daga +3
 Drop4=367-1 'Daga +4
 Drop5=1116-1 'Armadura de Asesino Reforzada
+
+[NPC912] 'No atacable
+Name=Aventurero Pasaje
+NpcType=0
+Desc=¡Este pasaje es peligroso! No te quedes ahi parado!
+Head=514
+Heading=3
+Body=8
+Movement=2
+AguaValida=0
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=0
+ReSpawn=0
+BackUp=0
+
+[NPC913] 'No atacable
+Name=Fantasma tumbas
+NpcType=0
+Desc=¡NO DESPIERTES A LOS MUERTOS!
+Head=514
+Heading=3
+Body=8
+Movement=2
+AguaValida=0
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=0
+ReSpawn=0
+BackUp=0
+
+[NPC914] 'No atacable
+Name=Fantasma tumbas
+NpcType=0
+Desc=¡Callate! y vuelve dentro!
+Head=514
+Heading=3
+Body=8
+Movement=2
+AguaValida=0
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=0
+ReSpawn=0
+BackUp=0
+
+[NPC915] 'No atacable
+Name=Fantasma tumbas
+NpcType=0
+Desc=y si no vuelve a la tumba..que aras..matarlo?ja...
+Head=514
+Heading=3
+Body=8
+Movement=2
+AguaValida=0
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=0
+ReSpawn=0
+BackUp=0
+
+[NPC916] 'No atacable
+Name=Fantasma tumbas
+NpcType=0
+Desc=Por eso los mate..por pendejos!
+Head=514
+Heading=3
+Body=8
+Movement=2
+AguaValida=0
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=0
+ReSpawn=0
+BackUp=0
